@@ -1,0 +1,51 @@
+return chr (num).
+def gcd(x, y):
+while y:
+х, у - у, х % у
+return X
+msg =
+img - encoded_image.copy)
+pattern - gcd(len(img), len(img[®]))
+for i in range(len(img)):
+for j in range(len(img[0])):
+if
+(1 - 1 * j - 1) % pattern == 0: if img[i][j][0] 1- 0:
+msg += char_from_ascii(img[1][j][®])
+else:
+return msg
+image_location = "/content/rcb.jpg"
+ing - plt.imread(image_location)
+message • " Ee Sala Cup Namdu."
+encoded image = encode
+image(image_location, message)
+decoded message - decode_image(encoded img - plt.imread(image _location)
+image)
+plt. imshow(img)
+print ("Image encoded successfully with the secret text") print ("Decoded message:", decoded message)
+import cv2
+import numpy as np import matplotlib-pyplot as plt def encode _image(image_location,
+msg) :
+def char _generator(message):
+for c in message:
+yield ord(c)
+def gcd (x, y):
+while y:
+х, у = у, х % у
+return x
+img - cv2. imread (image_location)
+msg gen - char _generator (msg)
+pattern - gcd(len (img), len(img[®]))
+for i in range(len(img)):
+for j in range(len(img[®])):
+if (1 + 1 * j+ 1)
+* pattern
+*= 0:
+try:
+img [4][j][®] - next(m5g_gen)
+except StopIteration:
+img [i][j][0] - 0
+return
+img
+def decode_image(encoded image):
+def char_from ascii(num):
+return chr (num)
